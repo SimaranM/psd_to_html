@@ -1,0 +1,581 @@
+html {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(112 111 120);
+}
+
+body{
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+}
+
+button{
+    color: rgba(106,219,206,255);
+    border: 1px solid rgba(106,219,206,255);
+    background-color: transparent;
+    text-align: center;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+/* Nav-bar and Hero Section Jenny start*/
+#header {
+    background-image: url(images/bgk-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    color: white;
+}
+
+#logo-nav-wrapper {
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    display: flex;
+}
+
+#header-logo {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#header-logo span {
+    color: rgba(106,219,206,255);;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+#navigation {
+    display: inline-flex;
+    gap: 25px;
+    justify-content: flex-end;
+}
+
+
+.nav-items a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-items a:hover {
+    color: rgba(106,219,206,255);;
+}
+
+#hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+#hero-section p {
+    color: #ffffff;
+}
+
+#hero-section h1 {
+    font-size: 34px;
+    align-self: center;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+#pretty-line {
+    border: .1px solid rgba(106,219,206,255);
+    width: 48px;
+    margin: 1.4rem auto 1.6rem auto;
+}
+
+#hero-section p {
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: 0;
+}
+
+#learn-more-btn {
+    padding: 10px 13px;
+    margin-top: 3%;
+}
+/* Nav-bar and Hero Section Jenny end*/
+
+/* <!-- Story Section created Simran'---------start------------- */
+#story-section .container {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#story-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#story-section .story_section_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#story-section img {
+    width: 250px;
+}
+
+#story-section .story_section_img {
+    width: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#story-section .story_section_text {
+    width: 660px;
+}
+
+#story-section .story_section_inner_text {
+    margin-bottom: 30px;
+}
+
+#story-section .story_section_inner_text p {
+    color: rgb(112 111 120);
+    font-size: 20px;
+    line-height: 1.5;
+}
+/* Story Section Simran ends */
+
+
+/*Watch Section Jenny starts*/
+#watch-image {
+    height: 500px;
+    background-image: url("images/bgk-middle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#watch-image p {
+    color: white;
+}
+/*Watch Section Jenny ends*/
+
+/* Expertise Section Maria starts */
+.padding-section{
+  padding: 40px 0;
+}
+
+#expertise-section h2{
+  text-align: center;
+}
+
+#expertise-section h3{
+  text-align: center;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card-text h4{
+  text-align: center;
+  padding: 10px;
+}
+
+.card-text p{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  color: rgb(112, 112, 112);
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  padding: 5px;
+    width: 400px;
+    height: 200px;
+    border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.card:last-child {
+  border-right: none;
+}
+
+.cards:last-child > .card {
+  border-bottom: none;
+}
+
+.card img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding: 10px;
+}
+/* Expertise Section Maria ends */
+
+/* Team Section Maria starts */
+#team-section h2{
+    text-align: center;
+    color: white;
+}
+
+#team-section h3{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#team-section h4{
+    margin: 10px;
+    color: white;
+}
+
+#team-section{
+    background-image: url("images/bgk-header.png");
+    background-size: cover;
+    padding: 3% 0;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr{
+    width: 50px;
+    height: 1px;
+    background-color: rgb(146, 146, 146);
+    border: none;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.team {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 0;
+}
+  
+.member {
+    border: 1px solid white;
+}
+
+.member img{
+    width: 230px;
+    height: 260px;
+}
+  
+.member-name {
+    text-align: center;
+    color: white;
+}
+
+.member-name p{
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(209, 209, 209);
+    margin-bottom: 25px;
+}
+
+.action-text{
+    color: white;
+    text-align: center;
+}
+
+.blue-button{
+    text-align: center;
+    margin-top: 0 !important;
+}
+
+.action-button{
+    padding: 10px 13px;
+}
+/* Team Section Maria ends */
+
+/* Contact Client Section Maria starts  */
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+    gap: 9%;
+}
+
+.contact, .client-logos{
+    width: 30%;
+}
+
+input, textarea{
+    padding: 3%; 
+    border:1px solid #ccc; 
+    width: 100%;
+    margin-top:15px;   
+    letter-spacing: 0.1rem; 
+}
+
+#contact-input ::placeholder {
+    color: rgb(112 111 120);
+}
+
+.contact button{
+    padding: 10px 6%;
+    margin-top: 3%;
+    font-weight: 700;
+}
+
+  .client-logos img{
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 7%;
+    padding-right: 20%;
+}
+/* Contact Client Section Maria ends  */
+
+
+/* Footer Simran starts */
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .main-footer {
+    background-image: url(images/bgk-footer.png);
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+}
+
+footer .main-footer .mainfooter-img {
+    display: flex;
+    align-items: center;
+        margin-bottom: 30px;
+}
+
+footer .main-footer .mainfooter-img img {
+    padding-right: 30px;
+}
+
+footer .main-footer .mainfooter-img-logo {
+    padding-top: 80px;
+}
+
+footer .main-footer .mainfooter-img-logo .mainfooter-img p {
+    font-size: 30px;
+    margin: 0;
+    color: rgba(106,219,206,255)
+}
+
+footer .main-footer .mainfooter-img-logo .mainfooter-font p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+}
+
+footer .main-footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .main-footer .row .col-6 {
+    max-width: 31%;
+}
+
+footer .main-footer .mainfooter_nav_second {
+    padding-top: 80px;
+}
+
+footer .main-footer .mainfooter_nav_second h5 {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+footer .main-footer .mainfooter_nav_main .mainfooter_nav_copyright p{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 275;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+footer .main-footer .mainfooter_nav_main ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .main-footer .mainfooter_nav_main ul {
+    padding: 0;
+}
+
+footer .main-footer .mainfooter_nav_main ul li {
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+footer .main-footer .mainfooter_nav_main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+footer .main-footer .mainfooter_nav_main .mainfooter_nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 275;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer .main-footer .mainfooter_nav_main .mainfooter_nav ul li {
+    padding-right:45px;
+}
+
+footer .main-footer .mainfooter_nav_main .mainfooter_nav {
+  padding-right: 500px;
+}
+
+footer .main-footer .mainfooter_nav_second .mainfooter_nav_studio {
+    display: flex;
+  
+}
+
+.mainfooter_nav_img{
+padding-right: 20px;
+  
+}
+
+.mainfooter_nav_font p {
+    margin: 0;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.main-footer-disk h5 {
+  padding-top: 80px;
+}
+
+.main-footer-disk h5 {
+    color: #fff;
+ margin-top: 10px;
+    font-size: 20px;
+}
+
+footer .main-footer .row .main-footer-disk p {
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    width: 100%;
+    max-width: 342px;
+}
+
+footer .main-footer .row .email {
+    position: relative;
+    margin-top: 34px;
+    opacity: 0.7;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: rgb(255, 255, 255);
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer */
+    color: rgb(255, 255, 255);
+}
+
+footer .main-footer .row .email::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+footer .main-footer .row .email input {
+    background: #ffffff;
+    opacity: 0.9;
+    border: 1px solid #fff;
+    color: #000;
+    padding: 9.5px;
+    width: 65%;
+    background: none;
+    height: 28px;
+        margin: 0;
+}
+
+footer .main-footer .row .email a {
+    padding: 10px 30px;
+    border: 0;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    background: #ffffff;
+    opacity: 0.5;
+}
+
+footer .main-footer .row .mobile-social-icon {
+    padding-top: 20px;
+}
+
+footer .main-footer .row .mobile-social-icon ul {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+footer .main-footer .row .mobile-social-icon ul li {
+    list-style-type: none;
+}
+
+footer .main-footer .row .mobile-social-icon ul img {
+    margin-right: 20px;
+    opacity: 0.9;
+    border-radius: 4px;
+}
+/* <!-- Footer Simran end---------- */
